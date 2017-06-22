@@ -1,0 +1,4 @@
+
+export LD_LIBRARY_PATH=/home/remy/rendu/cpp_arcade/graphics:$LD_LIBRARY_PATH
+
+g++ lib_arcade_sfml.so -lsfml-window -lsfml-graphics -lsfml-system
